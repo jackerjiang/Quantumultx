@@ -1,3 +1,4 @@
+#建议将GEOIP更新地址改为：https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb
 [general]
 profile_img_url = https://img.sveir.xyz/static/favicon%40trs.png
 resource_parser_url = https://fastly.jsdelivr.net/gh/KOP-XIAO/QuantumultX@master/Scripts/resource-parser.js
