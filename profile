@@ -59,7 +59,6 @@ final, 🕹 漏网之鱼
 [task_local]
 event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/streaming-ui-check.js, tag=流媒体-解锁查询, img-url=checkmark.seal.system, enabled=true
 [http_backend]
-https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, tag=Boxjs, path=^/, enabled=true
 [mitm]
 hostname = 
 passphrase = 6CFA9C72
