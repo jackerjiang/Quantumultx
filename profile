@@ -2,7 +2,7 @@
 [general]
 profile_img_url = https://img.sveir.xyz/static/favicon%40trs.png
 resource_parser_url = https://fastly.jsdelivr.net/gh/KOP-XIAO/QuantumultX@master/Scripts/resource-parser.js
-network_check_url = http://www.bing.com
+network_check_url = http://www.aliyun.com
 server_check_url = http://www.gstatic.com/generate_204
 server_check_timeout = 3000
 geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/GeoLocationChecker/QuantumultX/IP-API.js
