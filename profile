@@ -39,9 +39,7 @@ https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Ser
 https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Rules/Region/China.list, tag=🇨🇳国内网站, force-policy=direct, update-interval=172800, opt-parser=false, enabled=true
 [rewrite_remote]
 https://raw.githubusercontent.com/jackerjiang/Quantumultx/main/rewrite.conf, tag=重写规则, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/jkgtw/Surge/master/Modules/LINE-ADs.sgmodule, tag=Line去广告, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/Maasea/sgmodule/master/YoutubeAds.sgmodule, tag=YouTube去广告, update-interval=172800, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag=BoxJS, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/yqc007/QuantumultX/master/ChatGPTPlusCrack.js, tag=ChatGPT, update-interval=172800, opt-parser=false, enabled=true
 [server_local]
 
