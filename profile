@@ -16,9 +16,7 @@ doh-server = https://dns.alidns.com/dns-query, https://doh.pub/dns-query
 static=🚀 全球加速, direct, ♻️ 自动选择, 🇭🇰 香港节点, 🇨🇳 台湾节点,  🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇸 美国节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
 static = ✳️Google, direct, ♻️ 自动选择, 🇭🇰 香港节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇸 美国节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png
 static = 🎞YouTube, direct, ♻️ 自动选择, 🇭🇰 香港节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇸 美国节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/YouTube.png
-static = 📶Line, direct, ♻️ 自动选择, 🇭🇰 香港节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇸 美国节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/LineTV.png
-static = 📨Telegram, direct, ♻️ 自动选择, 🇭🇰 香港节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇸 美国节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
-static = 🎦Facebook, direct, ♻️ 自动选择, 🇭🇰 香港节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇸 美国节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Discovery.png
+static = 🎦ChatGPT, direct, ♻️ 自动选择, 🇭🇰 香港节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇸 美国节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Discovery.png
 static = 🍎 苹果服务, direct, ♻️ 自动选择, 🇭🇰 香港节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇸 美国节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Apple.png
 static = 🕹 漏网之鱼, direct, ♻️ 自动选择, 🇭🇰 香港节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇸 美国节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png
 url-latency-benchmark=♻️ 自动选择, server-tag-regex=.*, check-interval=1200, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Auto.png
@@ -44,6 +42,7 @@ https://raw.githubusercontent.com/jackerjiang/Quantumultx/main/rewrite.conf, tag
 https://raw.githubusercontent.com/jkgtw/Surge/master/Modules/LINE-ADs.sgmodule, tag=Line去广告, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/Maasea/sgmodule/master/YoutubeAds.sgmodule, tag=YouTube去广告, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag=BoxJS, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/yqc007/QuantumultX/master/ChatGPTPlusCrack.js, tag=ChatGPT, update-interval=172800, opt-parser=false, enabled=true
 [server_local]
 
 [filter_local]
