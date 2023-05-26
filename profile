@@ -34,6 +34,7 @@ https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Rules/Services/
 https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Rules/Advertising/AdReject.list, tag=🚫Advertising, force-policy=reject, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/Foreign/YouTube.list, tag=🎞YouTube, force-policy=🎞YouTube, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Google.list, tag=✳️Google, force-policy=✳️Google, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/yqc007/QuantumultX/master/ChatGPTPlusCrack.js, tag=🎦ChatGPT, force-policy=🎦ChatGPT, update-interval=172800, opt-parser=true, enabled=true
 https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Rules/Region/Global.list, tag=🚀全球加速, force-policy=🚀 全球加速, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Apple.list, tag=🍎苹果服务, force-policy=🍎 苹果服务, update-interval=172800, opt-parser=false, enabled=true
 https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Rules/Region/China.list, tag=🇨🇳国内网站, force-policy=direct, update-interval=172800, opt-parser=false, enabled=true
