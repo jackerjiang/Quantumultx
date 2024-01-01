@@ -15,8 +15,12 @@ doh-server = https://dns.alidns.com/dns-query, https://doh.pub/dns-query
 [policy]
 static=🚀 全球加速, direct, ♻️ 自动选择, 🇭🇰 香港节点, 🇨🇳 台湾节点,  🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇸 美国节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
 static = ✳️Google, direct, ♻️ 自动选择, 🇭🇰 香港节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇸 美国节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png
+static = GoogleVoice, direct, ♻️ 自动选择, 🇭🇰 香港节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇸 美国节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/GoogleDrive.png
 static = 🎞YouTube, direct, ♻️ 自动选择, 🇭🇰 香港节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇸 美国节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/YouTube.png
-static = 🎦ChatGPT, direct, ♻️ 自动选择, 🇭🇰 香港节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇸 美国节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Discovery.png
+static = Line, direct, ♻️ 自动选择, 🇭🇰 香港节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇸 美国节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Streaming.png
+static = Whatsapp, direct, ♻️ 自动选择, 🇭🇰 香港节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇸 美国节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Touhou.png
+static = Telgram, direct, ♻️ 自动选择, 🇭🇰 香港节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇸 美国节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
+static = Spotify, direct, ♻️ 自动选择, 🇭🇰 香港节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇸 美国节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Spotify.png
 static = 🍎 苹果服务, direct, ♻️ 自动选择, 🇭🇰 香港节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇸 美国节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Apple.png
 static = 🕹 漏网之鱼, direct, ♻️ 自动选择, 🇭🇰 香港节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇸 美国节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png
 url-latency-benchmark=♻️ 自动选择, server-tag-regex=.*, check-interval=1200, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Auto.png
@@ -27,10 +31,8 @@ url-latency-benchmark = 🇸🇬 狮城节点, server-tag-regex=(?=.*(新|狮|�
 url-latency-benchmark = 🇺🇸 美国节点, server-tag-regex=(?=.*(美|US|(?i)States|American))^((?!(港|台|日|韩|新)).)*$, check-interval=1200, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
 [server_remote]
 #in=V3&udp=1&tfo=1&emoji=2&cert=-1&sort=1, tag=V2ray, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/V2ray.png, update-interval=172800, opt-parser=true, enabled=true
-h#in=V3&emoji=2&udp=1&tfo=1&uot=1&sort=1, tag=SSR, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSR.png, update-interval=172800, opt-parser=true, enabled=true
 [filter_remote]
 https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Rules/Advertising/Hijacking.list, tag=Hijacking, force-policy=reject, update-interval=172800, opt-parser=false, enabled=true
-https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Rules/Services/Unbreak.list, tag=Unbreak, force-policy=direct, update-interval=172800, opt-parser=false, enabled=true
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rewrite/QuantumultX/Advertising/Advertising.conf, tag=🚫Advertising, force-policy=reject, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/Foreign/YouTube.list, tag=🎞YouTube, force-policy=🎞YouTube, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Google.list, tag=✳️Google, force-policy=✳️Google, update-interval=172800, opt-parser=true, enabled=true
@@ -49,7 +51,6 @@ https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Rules/Region/Ch
 [rewrite_remote]
 https://raw.githubusercontent.com/jackerjiang/Quantumultx/main/rewrite.conf, tag=重写规则, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/Maasea/sgmodule/master/YoutubeAds.sgmodule, tag=YouTube去广告, update-interval=172800, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/yqc007/QuantumultX/master/ChatGPTPlusCrack.js, tag=ChatGPT, update-interval=172800, opt-parser=false, enabled=true
 [server_local]
 
 [filter_local]
