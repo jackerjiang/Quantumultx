@@ -9,8 +9,8 @@ geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubuserc
 dns_exclusion_list = *.lan, *.msftconnecttest.com, *.msftncsi.com, *.qq.com, localhost.*.qq.com, id6.me, pool.ntp.org, *.pool.ntp.org, ntp.*.com, time.*.com, ntp?.*.com, time?.*.com, time.*.gov, time.*.apple.com
 excluded_routes = 192.168.0.0/16, 172.16.0.0/12, 100.64.0.0/10, 10.0.0.0/8, 239.255.255.250/32
 [dns]
-no-system
 no-ipv6
+no-system
 doh-server = https://dns.alidns.com/dns-query, https://doh.pub/dns-query
 [policy]
 static=🚀 全球加速, direct, ♻️ 自动选择, 🇭🇰 香港节点, 🇨🇳 台湾节点,  🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇸 美国节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
@@ -33,7 +33,7 @@ url-latency-benchmark = 🇺🇸 美国节点, server-tag-regex=(?=.*(美|US|(?i
 #in=V3&udp=1&tfo=1&emoji=2&cert=-1&sort=1, tag=V2ray, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/V2ray.png, update-interval=172800, opt-parser=true, enabled=true
 [filter_remote]
 https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Rules/Advertising/Hijacking.list, tag=Hijacking, force-policy=reject, update-interval=172800, opt-parser=false, enabled=true
-https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rewrite/QuantumultX/AllInOne/AllInOne.list, tag=🚫Advertising, force-policy=reject, update-interval=172800, opt-parser=false, enabled=true
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Advertising/Advertising.list, tag=🚫Advertising, force-policy=reject, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/Foreign/YouTube.list, tag=🎞YouTube, force-policy=🎞YouTube, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Google.list, tag=✳️Google, force-policy=✳️Google, update-interval=172800, opt-parser=true, enabled=true
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/YouTube/YouTube.list, tag=✳️Youtube, force-policy=Youtube, update-interval=172800, opt-parser=true, enabled=true
