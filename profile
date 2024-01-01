@@ -30,7 +30,7 @@ url-latency-benchmark = 🇯🇵 日本节点, server-tag-regex=(?=.*(日|JP|(?i
 url-latency-benchmark = 🇸🇬 狮城节点, server-tag-regex=(?=.*(新|狮|獅|SG|(?i)Singapore))^((?!(港|台|日|韩|美)).)*$, check-interval=1200, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
 url-latency-benchmark = 🇺🇸 美国节点, server-tag-regex=(?=.*(美|US|(?i)States|American))^((?!(港|台|日|韩|新)).)*$, check-interval=1200, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
 [server_remote]
-#in=V3&udp=1&tfo=1&emoji=2&cert=-1&sort=1, tag=V2ray, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/V2ray.png, update-interval=172800, opt-parser=true, enabled=true
+#in=V2&udp=1&tfo=1&emoji=2&cert=-1&sort=1, tag=V2ray, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/V2ray.png, update-interval=172800, opt-parser=true, enabled=true
 [filter_remote]
 https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Rules/Advertising/Hijacking.list, tag=Hijacking, force-policy=reject, update-interval=172800, opt-parser=false, enabled=true
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Advertising/Advertising.list, tag=🚫Advertising, force-policy=reject, update-interval=172800, opt-parser=false, enabled=true
@@ -42,9 +42,9 @@ https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Whatsapp/Whatsapp.list, tag=Whatsapp, force-policy=Whatsapp, update-interval=172800, opt-parser=true, enabled=true
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Spotify/Spotify.list, tag=Spotify, force-policy=spotify, update-interval=172800, opt-parser=true, enabled=true
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/GoogleVoice/GoogleVoice.list, tag=GoogleVoice, force-policy=GoogleVoice, update-interval=172800, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/WeChat.list, tag=微信直连, force-policy=direct, update-interval=172800, opt-parser=true, enabled=true
-https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/DouYin/DouYin.list, tag=抖音直连, force-policy=direct, update-interval=172800, opt-parser=true, enabled=true
-https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/KuaiShou/KuaiShou.list， tag=快手直连, force-policy=direct, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/WeChat.list, tag=Wechat, force-policy=direct, update-interval=172800, opt-parser=true, enabled=true
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/DouYin/DouYin.list, tag=DouYin, force-policy=direct, update-interval=172800, opt-parser=true, enabled=true
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/KuaiShou/KuaiShou.list, tag= Kuaishou, force-policy=direct, update-interval=172800, opt-parser=true, enabled=true
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Global/Global.list, tag=🚀全球加速, force-policy=🚀 全球加速, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Apple.list, tag=🍎苹果服务, force-policy=🍎 苹果服务, update-interval=172800, opt-parser=false, enabled=true
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/ChinaMax/ChinaMax.list, tag=🇨🇳国内网站, force-policy=direct, update-interval=172800, opt-parser=false, enabled=true
