@@ -33,7 +33,7 @@ url-latency-benchmark = 🇯🇵 日本节点, server-tag-regex=(?=.*(日|JP|(?i
 url-latency-benchmark = 🇸🇬 狮城节点, server-tag-regex=(?=.*(新|狮|獅|SG|(?i)Singapore))^((?!(港|台|日|韩|美)).)*$, check-interval=1200, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
 url-latency-benchmark = 🇺🇸 美国节点, server-tag-regex=(?=.*(美|US|(?i)States|American))^((?!(港|台|日|韩|新)).)*$, check-interval=1200, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
 [server_remote]
-https://s.youyun666.site/link/DJ8313QkWGbeBifS?sub=3#in=V2&udp=1&tfo=1&emoji=2&sort=1, tag=V2ray, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/V2ray.png, update-interval=172800, opt-parser=true, enabled=true
+#in=V2&udp=1&tfo=1&emoji=2&sort=1, tag=V2ray, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/V2ray.png, update-interval=172800, opt-parser=true, enabled=true
 [filter_remote]
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Hijacking/Hijacking.list, tag=Hijacking, force-policy=reject, update-interval=172800, opt-parser=true, enabled=true
 https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Advertising/Advertising.list, tag=Advertising, force-policy=reject, update-interval=172800, opt-parser=true, enabled=true
