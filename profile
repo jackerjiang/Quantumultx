@@ -8,10 +8,12 @@ server_check_timeout = 3000
 geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/GeoLocationChecker/QuantumultX/IP-API.js
 dns_exclusion_list = *.lan, *.msftconnecttest.com, *.msftncsi.com, *.qq.com, localhost.*.qq.com, id6.me, pool.ntp.org, *.pool.ntp.org, ntp.*.com, time.*.com, ntp?.*.com, time?.*.com, time.*.gov, time.*.apple.com
 excluded_routes = 192.168.0.0/16, 172.16.0.0/12, 100.64.0.0/10, 10.0.0.0/8, 239.255.255.250/32
+
 [dns]
 no-ipv6
 no-system
 doh-server = https://dns.alidns.com/dns-query, https://doh.pub/dns-query
+
 [policy]
 static= 全球加速, direct, ♻️ 自动选择, 🇭🇰 香港节点, 🇨🇳 台湾节点,  🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇸 美国节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
 static = Google, direct, ♻️ 自动选择, 🇭🇰 香港节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇸 美国节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png
