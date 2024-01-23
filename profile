@@ -74,6 +74,8 @@ ip-cidr, 224.0.0.0/4, direct
 final, 漏网之鱼
 
 [rewrite_local]
+# Redirect Google Search Service
+^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
 
 [task_local]
 event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/streaming-ui-check.js, tag=流媒体-解锁查询, img-url=checkmark.seal.system, enabled=true
