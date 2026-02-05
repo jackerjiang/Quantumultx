@@ -1,4 +1,4 @@
-# Google Voice 相关
+# Google Voice
 HOST-SUFFIX, voice.google.com, proxy
 HOST-SUFFIX, telephony.goog, proxy
 HOST, voice.telephony.goog, proxy
