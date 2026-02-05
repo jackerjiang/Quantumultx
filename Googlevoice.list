@@ -1,13 +1,13 @@
 # Google Voice 相关
-HOST-SUFFIX, voice.google.com, Googlevoice
-HOST-SUFFIX, telephony.goog, Googlevoice
-HOST, voice.telephony.goog, Googlevoice
-HOST-SUFFIX, rcs-copper, Googlevoice
-HOST-SUFFIX, google-voice, Googlevoice
-HOST, voice-pa.googleapis.com, Googlevoice
-HOST-SUFFIX, googlevoice.com, Googlevoice
-HOST, stun.l.google.com, Googlevoice
-HOST, stun1.l.google.com, Googlevoice
-HOST, stun2.l.google.com, Googlevoice
-HOST, stun3.l.google.com, Googlevoice
-HOST, stun4.l.google.com, Googlevoice
+HOST-SUFFIX, voice.google.com, proxy
+HOST-SUFFIX, telephony.goog, proxy
+HOST, voice.telephony.goog, proxy
+HOST-SUFFIX, rcs-copper, proxy
+HOST-SUFFIX, google-voice, proxy
+HOST, voice-pa.googleapis.com, proxy
+HOST-SUFFIX, googlevoice.com, proxy
+HOST, stun.l.google.com, proxy
+HOST, stun1.l.google.com, proxy
+HOST, stun2.l.google.com, proxy
+HOST, stun3.l.google.com, proxy
+HOST, stun4.l.google.com, proxy
